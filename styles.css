@@ -1,4 +1,4 @@
-/* MONTEIRO & VASCONCELOS ADVOCACIA - CSS REDESENHADO */
+/* MONTEIRO & VASCONCELOS ADVOCACIA */
 
 /* ====== VARIÁVEIS DE COR E FONTES ====== */
 :root {
@@ -146,7 +146,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 0;
+  padding: 2px 0;
 }
 
 .logo {
@@ -214,12 +214,15 @@ ul {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
   position: relative;
   overflow: hidden;
-  padding-top: 80px;
-}
+  padding-top: 20px;
 
+  background: 
+    linear-gradient(135deg, rgba(44,62,80,0.85) 0%, rgba(52,73,94,0.85) 100%),
+    url("imgs/escritorio\ advogacia.png") center/cover no-repeat;
+  background-attachment: fixed; /* opcional: dá aquele efeito parallax */
+}
 .hero-container {
   display: flex;
   max-width: 1400px;
