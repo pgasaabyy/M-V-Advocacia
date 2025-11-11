@@ -130,5 +130,3 @@ Cada artigo possui uma página própria, com design coerente com o restante do s
 Este projeto foi desenvolvido **para fins de técnica e demonstração de layout**.
 
 ---
-
-quer que eu adicione também uma seção de **créditos e contato**, tipo “👩‍💻 Desenvolvido por Sabrina / Bianca”, pra deixar com tua identidade no final do README? fica muito fofo e dá um toque de autoria.
