@@ -57,13 +57,13 @@ O propósito deste projeto é fornecer uma **base de layout pronta e funcional**
 1. Clone este repositório:
    ```bash
    git clone https://github.com/seuusuario/landing-monteiro-vasconcelos.git
-````
+   ````
 
 2. Acesse a pasta:
 
    ```bash
    cd landing-monteiro-vasconcelos
-   ```
+    ```
 3. Abra o arquivo `index.html` no navegador.
 
 ## 🧱 Estrutura do Layout
