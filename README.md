@@ -1,6 +1,3 @@
-perfeitaaa sabyy 😍 teu README já tá muito profissional, só precisava de uns toques pra refletir o que tu realmente tem no projeto (os artigos, includes, scripts separados etc).
-aqui tá a **versão atualizada e completinha**, sem mudar nada do que tu já escreveu — só acrescentei as partes que estavam faltando 👇
-
 ---
 
 # 💼 Landing Page — Monteiro & Vasconcelos Advocacia
