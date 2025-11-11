@@ -9,38 +9,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="icon" href="imgs/balança icon sb.png" type="image/x-icon">
-">
 </head>
 <body>
 
     <!-- HEADER FIXO -->
-    <header class="header">
-        <nav class="nav container">
-            <a href="#home" class="logo">
-                <div class="logo-icon">
-                    <img src="imgs/balança icon sb.png" alt="Logo Monteiro & Vasconcelos Balança">
-                </div>
-                <div class="logo-text">
-                    <span class="logo-name">Monteiro & Vasconcelos</span>
-                    <span class="logo-sub">ADVOCACIA</span>
-                </div>
-            </a>
-
-            <!-- Menu Desktop -->
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="#sobre" class="nav-link">Sobre</a></li>
-                <li><a href="#servicos" class="nav-link">Serviços</a></li>
-                <li><a href="#areas" class="nav-link">Áreas</a></li>
-                <li><a href="#contato" class="nav-link">Contato</a></li>
-                <button class="nav-close" id="navClose">✕</button>
-            </ul>
-
-            <div class="nav-actions">
-                <a href="#contato" class="btn-primary">Agendar Consulta</a>
-                <button class="nav-toggle" id="navToggle">☰</button>
-            </div>
-        </nav>
-    </header>
+    <div id="header"></div>
 
     <!-- HERO - Seção principal com imagem grande do advogado -->
     <section class="hero" id="home">
@@ -184,6 +157,49 @@
       </div>
     </div>
   </div>
+</section>
+
+    <!-- DIREITOS -->
+<section class="direitos" id="direitos">
+    <div class="container">
+        <h2 class="section-title">Saiba mais sobre seus direitos</h2>
+        <p class="section-subtitle">
+        Esse espaço é dedicado à veiculação de materiais para você entender melhor seus direitos
+        e deveres como trabalhador.
+        </p>
+
+        <div class="cards-grid">
+        <!-- Card 1 -->
+        <div class="card-artigo">
+            <img src="imgs/aposentadoria.png" alt="Aposentadoria para pessoas com deficiência">
+            <div class="card-content">
+            <h3>Aposentadoria para pessoas com deficiência: Como funciona todo o processo?</h3>
+            <p>O processo de aposentadoria para pessoas com deficiência no Brasil é regulamentado pela Lei Complementar nº 142, de 2013.</p>
+            <a href="artigo-aposentadoria.html" class="btn-link">Continue lendo »</a>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card-artigo">
+            <img src="imgs/rescisão.png" alt="Rescisão indireta">
+            <div class="card-content">
+            <h3>Rescisão indireta: entenda quando o trabalhador pode solicitar e quais os direitos</h3>
+            <p>A rescisão indireta é um direito pouco conhecido, mas muito importante para o trabalhador. Trata-se de uma espécie de "demissão por justa causa" ao empregador.</p>
+            <a href="#" class="btn-link">Continue lendo »</a>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card-artigo">
+            <img src="imgs/teletrabalho.png" alt="Teletrabalho">
+            <div class="card-content">
+            <h3>Teletrabalho: direitos e deveres de empregados e empregadores</h3>
+            <p>O teletrabalho, também conhecido como trabalho remoto, tornou-se uma realidade para muitas empresas e profissionais com as inovações tecnológicas.</p>
+            <a href="#" class="btn-link">Continue lendo »</a>
+            </div>
+        </div>
+        </div>
+    </div>
 </section>
 
 
@@ -335,70 +351,9 @@
     </section>
 
     <!-- FOOTER -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <!-- Sobre o Escritório -->
-                <div class="footer-col">
-                    <div class="logo">
-                        <div class="logo-icon"> 
-                            <img src="imgs/M&V Advocacia.png" alt="Logo Monteiro & Vasconcelos Balança">
-                        </div>
-                    </div>
-                    <p class="footer-text">Escritório especializado em Direito Trabalhista e Previdenciário.</p>
-                </div>
+     <div id="footer"></div>
 
-                <!-- Links -->
-                <div class="footer-col">
-                    <h4 class="footer-title">Links</h4>
-                    <ul class="footer-links">
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#servicos">Serviços</a></li>
-                        <li><a href="#areas">Áreas</a></li>
-                        <li><a href="#contato">Contato</a></li>
-                    </ul>
-                </div>
-
-                <!-- Serviços -->
-                <div class="footer-col">
-                    <h4 class="footer-title">Serviços</h4>
-                    <ul class="footer-links">
-                        <li><a href="#servicos">Trabalhista</a></li>
-                        <li><a href="#servicos">Previdenciário</a></li>
-                        <li><a href="#servicos">Consultoria</a></li>
-                        <li><a href="#servicos">Planejamento</a></li>
-                    </ul>
-                </div>
-
-                <!-- Horário -->
-                <div class="footer-col">
-                    <h4 class="footer-title">Horário</h4>
-                    <ul class="footer-links">
-                        <li>Seg-Sex: 9h às 18h</li>
-                        <li>Sábado: 9h às 13h</li>
-                        <li>Domingo: Fechado</li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Copyright -->
-            <div class="footer-bottom">
-                <p>&copy; 2025 Monteiro & Vasconcelos Advocacia</p>
-                <div class="social-links">
-                    <a href="#" aria-label="Facebook">Facebook</a>
-                    <a href="#" aria-label="Instagram">Instagram</a>
-                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Botão WhatsApp flutuante -->
-    <a href="https://wa.me/5511999999999" class="whatsapp-btn" 
-        aria-label="Contato pelo WhatsApp" target="_blank" rel="noopener">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-
+    <script src="include.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
