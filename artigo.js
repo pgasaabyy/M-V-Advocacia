@@ -9,3 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
     heroText.style.transform = "translateY(0)";
   }, 300);
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const hero = document.querySelector(".artigo-hero");
+  hero.classList.add("fade-in");
+});
