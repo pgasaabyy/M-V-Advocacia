@@ -32,7 +32,6 @@ O propósito deste projeto é fornecer uma **base de layout pronta e funcional**
 ## ⚙️ Funcionalidades Implementadas
 
 * 🌐 **Layout 100% responsivo** (mobile, tablet e desktop)
-* 📱 **Menu mobile com animação de abertura/fechamento**
 * 🧭 **Scroll suave entre seções**
 * 🧩 **Animações de entrada com Intersection Observer**
 * 📧 **Formulário de contato validado (front-end apenas)**
